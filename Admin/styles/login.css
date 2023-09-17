@@ -1,0 +1,53 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.inputField {
+    font-size: 17px;
+    background-color: black;
+    color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+}
+
+#head {
+    font-size: 40px;
+}
+
+#mainBlock {
+    margin-top: 190px;
+    font-size: 25px;
+    margin-left: 750px;
+    border-radius: 20px;
+    background-color: black;
+    height: 350px;
+    width: 300px;
+    transition: all .4s ease-in-out;
+}
+
+#mainBlock:hover {
+    transform: scale(1.1);
+    background-color: deeppink;
+}
+
+#inputField1 {
+    background-color: black;
+    color: deeppink;
+    font-size: 25px;
+    border-radius: 12px;
+    border-color: black;
+    border-style: solid;
+    transition: all .4s ease-in-out;
+}
+
+#inputField1:hover {
+    transform: scale(1.1);
+}

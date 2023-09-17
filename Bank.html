@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Banking</title>
+    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="stylesheet" href="mainBank.css" />
+    <script type="text/javascript">
+      function alert_f() {
+        alert("Confirm Form Submission!");
+      }
+    </script>
+  </head>
+
+  <body style="background-image: url('background.png')">
+    <h1>Student's Bank</h1>
+    <main>
+      <p>
+        Welcome to Student's Bank.<br />Students can access their accounts and
+        manage all their payments,<br />
+        subscriptions and borrowings under one app.
+      </p>
+      <div id="userPanel">
+        <form>
+          <input
+            type="submit"
+            value="Admin's App"
+            formaction="Admin/main.html"
+            id="panelButton"
+          />
+          <input
+            type="submit"
+            value="Customer's App"
+            formaction="Customer/main.html"
+            id="panelButton"
+          />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

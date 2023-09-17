@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Customer</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="icon" type="image/x-icon" href="media/w.png" />
+    <script type="text/javascript">
+      function alert_f() {
+        alert("Confirm Form Submission!");
+      }
+    </script>
+  </head>
+
+  <body style="background-image: url('media/online.png')">
+    <div id="head">
+      <h1>ONLINE BANKING</h1>
+      <p>
+        Manage your bank accounts online with ease.<br />
+        View your balance, transfer money between accounts, and pay
+        bills with just a click.
+      </p>
+    </div>
+    <div id="main">
+      <p>
+        To get started, click on the "Login" button below<br />or register as
+        new Customer.
+      </p>
+    </div>
+    <div id="buttons">
+      <form>
+        <input
+          type="submit"
+          formaction="auth/login.php"
+          value="Login"
+          id="buttonDesign"
+        />
+        <input
+          type="submit"
+          formaction="auth/register.php"
+          value="Register"
+          id="buttonDesign"
+        />
+        <input
+          type="submit"
+          formaction="../Bank.html"
+          value="Return"
+          id="buttonDesign"
+        />
+      </form>
+    </div>
+  </body>
+</html>
